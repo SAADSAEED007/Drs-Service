@@ -1,0 +1,15 @@
+from __future__ import annotations
+
+import numpy as np
+
+STUMP_WIDTH_M = 0.228
+STUMP_HEIGHT_M = 0.711
+BAIL_HEIGHT_M = 0.025
+
+PITCH_LENGTH_M = 20.1168
+PITCH_HALF_WIDTH_M = 1.525
+WICKET_ZONE_HEIGHT_M = STUMP_HEIGHT_M + BAIL_HEIGHT_M
+
+STUMP_COLOR_LOWER = np.array([20, 20, 200], dtype=np.uint8)
+STUMP_COLOR_UPPER = np.array([40, 40, 255], dtype=np.uint8)
+STUMP_HIT_PROXIMITY_PX = 30
