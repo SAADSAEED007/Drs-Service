@@ -2,7 +2,7 @@
 
 A computer-vision-powered **Decision Review System (DRS)** backend for cricket video analysis.
 
-The Khelaao DRS Service processes cricket footage to detect and track the ball, estimate its trajectory, identify key events such as bounce and impact, and generate broadcast-style replay videos.
+This DRS Service processes cricket footage to detect and track the ball, estimate its trajectory, identify key events such as bounce and impact, and generate broadcast-style replay videos.
 
 Built with **Python, FastAPI, OpenCV, NumPy, and YOLO**.
 
